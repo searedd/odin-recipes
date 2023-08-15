@@ -1,0 +1,51 @@
+/*The entire body*/
+body {
+    font-family: Verdana, Georgia, Tahoma;
+    display: flex;
+    justify-content: center;
+}
+/*The main page*/
+
+
+
+/*The "div" content*/
+.content, .content1, .content2, .content3 {
+    border: 4px solid black;
+    display: inline-block;
+    text-align: center;
+    width: 520px;
+    background-color: rgb(255, 225, 123);
+}
+/*The "ul" tag*/
+
+.recipe-list {
+    list-style: none;
+    padding: 10px;
+}
+
+/*The "li"*/
+.content .recipe-list li {
+    display: inline-block;
+}
+
+/*The list elements*/
+.recipe-link {
+    list-style: none;
+    display: inline-block;
+    border: 3px solid rgb(251, 216, 93);
+    color: solid black;
+    background-color: rgb(241, 201, 59);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.intro {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+img {
+    width: 500px;
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
